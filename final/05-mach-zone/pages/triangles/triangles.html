@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mach-zone</title>
+    <link rel="stylesheet" href="../triangles/traingles.css" />
+    <link rel="stylesheet" href="../../index.css" />
+    <script
+      src="https://kit.fontawesome.com/0a63aa8264.js"
+      crossorigin="anonymous"
+    ></script>
+   
+  </head>
+  <body>
+    <section class="body-section">
+      <!-- ***********************Header**************** -->
+      <header class="container">
+        <div>
+          <navbar class="navbar">
+            <img
+              src="../../assets/images/logo-2.png"
+              alt="mach-logo"
+              class="logo-navbar"
+            />
+            <div class="navbar-list">
+              <a href="../../index.html" ><li class="navbar-items">Home</li></a>
+              <li class="navbar-items">About Us</li>
+              <li class="navbar-items">Resources</li>
+              <li class="navbar-items">projects</li>
+            </div>
+          </navbar>
+        </div>
+      </header>
+      <!-- *********************Main section**************** -->
+      <section class="container">
+        <main>
+          <!-- *******************question-1************** -->
+          <div class="question-container">
+            <div class="question-card">
+              <div class="question">
+                <p class="question-no">Question 1.</p>
+                <p class="question-text">
+                  Find the area of triangle having base and height
+                  <span
+                    ><input type="number" value="value" class="input-box" id="triangle1a"
+                  /></span>
+                  and
+                  <span
+                    ><input type="number" class="input-box" id="triangle1b"
+                  /></span>
+                </p>
+              </div>
+            </div>
+            <div class="solution-card">
+              <div class="solution">
+                <button class="solution-no " id="solution-click1">Click For Solution 1.</button>
+                <p class="solution-text">
+                  <span></span>
+                  <textarea class="solution-input-box" value="" id="solution1a"></textarea>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- *******************question-2************** -->
+          <div class="question-container">
+            <div class="question-card">
+              <div class="question">
+                <p class="question-no">Question 2.</p>
+                <p class="question-text">
+                  Find the area of traingle having three sides dimesions  
+                  <span
+                    ><input type="number" value="value" class="input-box" id="triangle2a"
+                  /></span>
+                  and
+                  <span
+                    ><input type="number" class="input-box" id="triangle2b"
+                  /></span>
+                  and  <span
+                  ><input type="number" class="input-box" id="triangle2c"
+                /></span>
+                </p>
+                <!-- error zone -->
+                 <p class="scalene-error hidden" id="scalene-error">wrong input , as sum of two sides of triangle should be greater than third side</p>
+                 <button class="scalene-clear hidden" id="scalene-clear">Clear input</button>
+              </div>
+            </div>
+            <div class="solution-card">
+              <div class="solution">
+                <button class="solution-no " id="solution-click2">Click For Solution 2.</button>
+                <p class="solution-text">
+                  <span></span>
+                  <textarea class="solution-input-box" value="" id="solution2a"></textarea>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+           <!-- *******************question-3************** -->
+          
+        </main>
+      </section>
+      <footer></footer>
+    </section>
+    <script src="./triangles.js"></script>
+  </body>
+</html>

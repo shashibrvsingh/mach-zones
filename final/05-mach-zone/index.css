@@ -104,6 +104,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
+  row-gap: 30px;
 }
 
 .card-template {
@@ -180,4 +181,66 @@
 .card-text {
   font-size: 20px;
   font-weight: 500;
+}
+
+/* ************Footer********** */
+hr {
+  margin-top: 40px;
+  height: 4px; /* Increase this value to make the line thicker */
+  background-color: rgb(244, 229, 9); /* Optional: sets the color of the line */
+  border: none; /* Removes default border */
+}
+.footer {
+  margin-top: 70px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  grid-auto-rows: 300px;
+}
+
+.footer-col-heading {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: sans-serif;
+  color: #905900;
+  letter-spacing: 7px;
+  margin-bottom: 20px;
+}
+
+.footer-icon {
+  font-size: 30px;
+  color: blue;
+  margin-left: 13px;
+  margin-bottom: 100px;
+}
+.footer-col-first {
+  font-size: 19px;
+}
+.footer-header {
+  font-size: 22px;
+  font-weight: 800;
+  color: rgb(68, 68, 68);
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.footer-address {
+  font-size: 18px;
+  color: rgb(46, 46, 46);
+}
+.footer-address-bottom {
+  margin-top: 100px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.footer-content-text {
+  font-size: 18px;
+  color: rgb(46, 46, 46);
 }
